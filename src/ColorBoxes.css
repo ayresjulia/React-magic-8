@@ -1,0 +1,28 @@
+.boxes {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.ColorBoxes {
+	text-align: center;
+}
+
+.ColorBoxes-btn {
+	font-family: 'New Tegomin', serif;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	background-color: black;
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.ColorBoxes-btn:hover {
+	color: rgb(41, 226, 66);
+	border: 2px solid rgb(41, 226, 66);
+	cursor: pointer;
+}
